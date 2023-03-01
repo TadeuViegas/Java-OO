@@ -9,10 +9,10 @@ public class TestaComposicaoObjetos {
 
         Conta accTadeu = new Conta();
 
-//        accTadeu.titular = tadeu;
-        System.out.println(accTadeu.titular);
+//        accTadeu.cliente = tadeu;
+        System.out.println(accTadeu.cliente);
         System.out.println(tadeu);
-        System.out.println(accTadeu.titular.nome);
+        System.out.println(accTadeu.cliente.nome);
 
     }
 }

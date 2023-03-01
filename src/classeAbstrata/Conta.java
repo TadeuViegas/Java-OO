@@ -1,10 +1,38 @@
-package clientesComposicao;
+package classeAbstrata;
 
-public class Conta {
-    Cliente cliente;
-    int agencia;
-    int numero;
-    Double saldo;
+public abstract class Conta {
+    private int agencia;
+    private int numero;
+    private Double saldo;
+
+    public Conta(int agencia, int numero) {
+        this.agencia = agencia;
+        this.numero = numero;
+    }
+
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public Double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
+    }
 
     void saca(double valor) {
         if (this.saldo >= valor) {
@@ -29,15 +57,9 @@ public class Conta {
             this.saldo -= valor;
 //            contaDestino.deposita(valor);
             System.out.println("Transferencia feita com Sucesso!");
-            System.out.println("Saldo atual da conta do " + this.cliente + ": R$" + this.saldo);
-            System.out.println("Saldo atual da conta do " + contaDestino.cliente + ": R$"  + contaDestino.saldo);
         } else System.out.println("Error: saldo insuficiente!");
     }
 
-    void statusConta(){
-        System.out.println(this.cliente);
-        System.out.println(this.saldo);
-        System.out.println(this.agencia);
-        System.out.println(this.numero);
-    }
+    public abstract void statusConta();
+
 }

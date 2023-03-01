@@ -3,11 +3,16 @@ package testGetSet;
 public class Conta {
     private Cliente titular;
     private int agencia;
-    private int numero;
+    private String numero;
     private Double saldo = 0.;
 
     public Conta(Cliente titular) {
         this.titular = titular;
+    }
+
+    public Conta(int agencia, String numero) {
+        this.agencia = agencia;
+        this.numero = numero;
     }
 
     public Cliente getTitular() {
@@ -26,11 +31,11 @@ public class Conta {
         this.agencia = agencia;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
