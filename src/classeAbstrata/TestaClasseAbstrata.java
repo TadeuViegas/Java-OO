@@ -5,7 +5,7 @@ public class TestaClasseAbstrata {
 //        Nota: não se pode instanciar um objeto de uma classe abstrata,
 //        apenas de suas derivadas (concretas).
 
-        ContaCC contacc = new ContaCC(123,45678);
+        Conta contacc = new ContaCC(123,45678);
         contacc.setSaldo(154.);
         contacc.statusConta();
 

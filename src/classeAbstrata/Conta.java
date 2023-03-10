@@ -1,7 +1,8 @@
 package classeAbstrata;
 
+// Classe abstrata não pode ser implementada
 public abstract class Conta {
-    private int agencia;
+    private int agencia = 123;
     private int numero;
     private Double saldo;
 
@@ -60,6 +61,7 @@ public abstract class Conta {
         } else System.out.println("Error: saldo insuficiente!");
     }
 
+//    método abstrato não pode ter corpo (implementação)
     public abstract void statusConta();
 
 }

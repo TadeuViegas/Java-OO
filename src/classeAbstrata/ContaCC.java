@@ -19,5 +19,6 @@ public class ContaCC extends Conta{
     @Override
     public void statusConta() {
         System.out.println("Saldo da conta corrente: " + this.getSaldo());
+        System.out.println("Agencia da cc: " + super.getAgencia());
     }
 }
