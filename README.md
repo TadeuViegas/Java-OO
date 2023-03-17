@@ -8,4 +8,10 @@ Vantagens POO
 - Facilidade de Manutenção
 - A Herança ajuda na personalização de code via bibliotecas
 
-## 💭Projeto: Um banco digital fictício.
+## 💭Projeto: Testes com todos os conceitos importantes
+- Trabalhando os 4 pilares (Abstração, Herança, Encapsulamento e Polimorfismo)
+- Uso de vários tipos de referencias
+- Boas práticas com SOLID
+- Uso de interfaces
+- Uso de classe abstrata
+- Uso de composição de Objetos
