@@ -16,3 +16,4 @@ Vantagens POO
 - Uso de classe abstrata
 - Uso de composição de Objetos
 - Uso de Generics
+- Uso de Enums
