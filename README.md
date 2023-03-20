@@ -15,3 +15,4 @@ Vantagens POO
 - Uso de interfaces
 - Uso de classe abstrata
 - Uso de composição de Objetos
+- Uso de Generics
