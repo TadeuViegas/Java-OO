@@ -1,3 +1,5 @@
+//Anotaçoes sao configurações no codigo fonte
+//Nao é necessario poluir o file xml
 public class Conta {
     String titular;
     int agencia;
