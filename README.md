@@ -1,9 +1,10 @@
 # Java - POO (Programção Orientada a Objetos)
-- Repositório criado para treinar POO.
+- Repositório criado para treinar POO e boas práticas de programação
 
-## 💭Objetivo: Praticar e internalizar os conceitos de POO com a linguagem java.
-Vantagens POO
-- Reutilização de Code
+## 💭Objetivo: Praticar e internalizar os conceitos de POO.
+
+- Reutilização de Codigo com composição
+- Polimorfismo
 - Mais segurança dos dados/informação
 - Facilidade de Manutenção
 - A Herança ajuda na personalização de code via bibliotecas
@@ -17,3 +18,4 @@ Vantagens POO
 - Uso de composição de Objetos
 - Uso de Generics
 - Uso de Enums
+- Uso de Exceções
