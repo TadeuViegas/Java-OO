@@ -1,3 +1,5 @@
+package teste;
+
 public class TestaMetodo {
     public static void main(String[] args) {
         Conta contaTadeu = new Conta();

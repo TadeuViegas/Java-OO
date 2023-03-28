@@ -1,3 +1,5 @@
+package teste;
+
 public class TesteReferencias {
     public static void main(String[] args) {
         Conta acc1 = new Conta();
