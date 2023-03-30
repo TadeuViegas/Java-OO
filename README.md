@@ -19,3 +19,5 @@
 - Uso de Generics
 - Uso de Enums
 - Uso de Exceções
+- Explorando biblioteca java.lang
+- Uso da Classe Strings e seus métodos (interface CharSequence)
