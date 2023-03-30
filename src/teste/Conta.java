@@ -8,6 +8,10 @@ public class Conta {
     int numero;
     Double saldo;
 
+    /**
+     * O valor precisa ser maior do que o saldo
+     * @param valor
+     */
     void saca(double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
