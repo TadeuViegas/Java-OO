@@ -8,6 +8,12 @@ public class TestandoStrings {
         String s = "Tadeu";
         String s1 = new String("Tadeu Viegas");
 
+        Boolean bol = s1.startsWith("tad");
+        System.out.println("Prefixo tad?: " + bol);
+
+        int s2 = s1.lastIndexOf("Vi");
+        System.out.println("lastIndexOf: " + s2);
+
         String result = s1.replace('T','t');
         System.out.println("Usando replace: " + result);
 
@@ -19,7 +25,7 @@ public class TestandoStrings {
         int pos = s1.indexOf("Vi");
         System.out.println("indexof retorna a posicao da strg: " + pos);
 
-        String substring = s1.substring(5);
+        String substring = s1.substring(4, 9);
         System.out.println("substring devolve a str a partir do index: " + substring);
 
         int size = s1.length();
