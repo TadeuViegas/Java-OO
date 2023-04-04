@@ -7,6 +7,11 @@ public class ContaPP extends Conta{
         super(agencia, numero);
     }
 
+    @Override
+    public String toString() {
+        return "Metodo da Conta PP: " + super.toString();
+    }
+
     public int getCodSegurança() {
         return codSegurança;
     }

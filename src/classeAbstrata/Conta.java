@@ -13,8 +13,8 @@ public class Conta {
 
     @Override
     public String toString() {
-        System.out.println("\n"+  "---Metodo da SuperClasse---");
-        return "Ag: " + this.agencia + " Acc: " + this.numero;
+        System.out.println("\n" +  "---Metodo da SuperClasse---");
+        return "Ag: " + this.agencia + " Acc: " + this.numero + "\n";
     }
 
     public int getAgencia() {

@@ -10,7 +10,7 @@ public class ContaCC extends Conta{
 
     @Override
     public String toString() {
-        return "Metodo da Conta CC: " + super.toString();
+        return "Metodo da Conta CC: " + "Ag: " + getAgencia() + ", Num: " + getNumero();
     }
 
     public int getCodSegurança() {
