@@ -15,6 +15,11 @@ public class Conta {
         this.numero = numero;
     }
 
+    @Override
+    public String toString() {
+        return "Numero: " + getNumero() + " Agencia: " + getAgencia();
+    }
+
     public Cliente getTitular() {
         return titular;
     }

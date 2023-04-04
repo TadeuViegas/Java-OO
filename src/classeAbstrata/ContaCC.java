@@ -8,6 +8,11 @@ public class ContaCC extends Conta{
         super(agencia, numero);
     }
 
+    @Override
+    public String toString() {
+        return "Metodo da Conta CC: " + super.toString();
+    }
+
     public int getCodSegurança() {
         return codSegurança;
     }
@@ -16,9 +21,5 @@ public class ContaCC extends Conta{
         this.codSegurança = codSegurança;
     }
 
-    @Override
-    public void statusConta() {
-        System.out.println("Saldo da conta corrente: " + this.getSaldo());
-        System.out.println("Agencia da cc: " + super.getAgencia());
-    }
+
 }

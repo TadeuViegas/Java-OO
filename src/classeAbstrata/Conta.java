@@ -1,7 +1,7 @@
 package classeAbstrata;
 
 // Classe abstrata não pode ser implementada
-public abstract class Conta {
+public class Conta {
     private int agencia = 123;
     private int numero;
     private Double saldo;
@@ -9,6 +9,12 @@ public abstract class Conta {
     public Conta(int agencia, int numero) {
         this.agencia = agencia;
         this.numero = numero;
+    }
+
+    @Override
+    public String toString() {
+        System.out.println("\n"+  "---Metodo da SuperClasse---");
+        return "Ag: " + this.agencia + " Acc: " + this.numero;
     }
 
     public int getAgencia() {
@@ -62,6 +68,6 @@ public abstract class Conta {
     }
 
 //    método abstrato não pode ter corpo (implementação)
-    public abstract void statusConta();
+
 
 }

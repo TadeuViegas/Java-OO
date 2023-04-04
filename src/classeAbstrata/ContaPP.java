@@ -15,9 +15,5 @@ public class ContaPP extends Conta{
         this.codSegurança = codSegurança;
     }
 
-    @Override
-    public void statusConta(){
-        System.out.println("Saldo da conta poupança: " + this.getSaldo());
-        System.out.println("cod de seg: " + this.getCodSegurança());
-    }
+
 }
