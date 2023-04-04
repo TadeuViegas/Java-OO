@@ -22,3 +22,4 @@
 - Explorando biblioteca java.lang
 - Uso da Classe Strings e seus métodos (interface CharSequence)
 - Uso de StringBuilder para concatenar substrings com eficiência
+- Uso dos métodos da super Classe Object (override)
