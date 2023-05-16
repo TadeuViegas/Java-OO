@@ -5,20 +5,15 @@ public class Diretor extends Funcionario implements Loguin {
     public Diretor (){
         this.loguin = new isLoguin();
     }
-    @Override
-    public void sound() {
-        System.out.println("ola mundo, diretor");
-        System.out.println("nome do diretor: " + this.nome);
-    }
 
     @Override
-    public void testNome() {
-        System.out.println("ue");
+    public void sound() {
+        System.out.println("Ola " + getClass().getSimpleName() + " " + this.nome);
     }
 
     @Override
     public void validaSenha(int senhaUser) {
         this.loguin.validaSenha(senhaUser);
-        System.out.println("impletançao especifica");
+        //pode-se fazer uma implementacao especifica
     }
 }

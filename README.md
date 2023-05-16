@@ -26,4 +26,4 @@
 
 ## 💭Trabalhando com libs
 - java.lang (Class String, StringBuilder, Object)
-- java.util (Class ArrayList)
+- java.util (Class ArrayList, Generics)
