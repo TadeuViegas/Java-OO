@@ -6,6 +6,12 @@ public class Conta {
     int numero;
     Double saldo;
 
+    public Conta(Cliente cliente, int agencia, int numero){
+        this.cliente = cliente;
+        this.agencia = agencia;
+        this.numero = numero;
+    }
+
     void saca(double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
