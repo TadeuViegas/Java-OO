@@ -8,10 +8,13 @@ public class TestandoStrings {
         String s = "Tadeu";
         String s1 = new String("Tadeu Viegas");
 
-        Boolean bol = s1.startsWith("tad");
+        Boolean bol = s1.startsWith("Tad");
         System.out.println("Prefixo tad?: " + bol);
 
-        int s2 = s1.lastIndexOf("Vi");
+        boolean bol1 = s1.endsWith("gas");
+        System.out.println("Sufixo gas: " + bol1);
+
+        int s2 = s1.lastIndexOf("V");
         System.out.println("lastIndexOf: " + s2);
 
         String result = s1.replace('T','t');
@@ -22,7 +25,7 @@ public class TestandoStrings {
         String result2 = s1.toUpperCase();
         System.out.println("Usando Upper case: " + result2);
 
-        int pos = s1.indexOf("Vi");
+        int pos = s1.indexOf("Viegas");
         System.out.println("indexof retorna a posicao da strg: " + pos);
 
         String substring = s1.substring(4, 9);
@@ -59,12 +62,13 @@ public class TestandoStrings {
         System.out.println(ss);
 
         System.out.println("Concatenação de Strings, usa-se StringBuilder para menor uso de recurso");
-        StringBuilder strBuilder = new StringBuilder("Tadeu");
+        StringBuilder strBuilder = new StringBuilder("Tadeu ");
         strBuilder.append("Viegas ");
-        strBuilder.append("O Famoso ");
+        strBuilder.append("whith nickname: ");
         strBuilder.append("drk god ");
-        strBuilder.append("csgo top1 ");
-        strBuilder.append("htlv");
+        strBuilder.append("this is csgo top1 ");
+        strBuilder.append("\nhtlv confirmed");
+
         String texto = strBuilder.toString();
         System.out.println(texto);
 
