@@ -4,9 +4,9 @@ package teste;
 //Nao é necessario poluir o file xml
 public class Conta {
     String titular;
+    Double saldo;
     int agencia;
     int numero;
-    Double saldo;
 
     /**
      * O valor precisa ser maior do que o saldo
