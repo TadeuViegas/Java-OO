@@ -6,7 +6,7 @@ package excecoes;
 //uncheked -> o compilador não verifica nada, o fluxo fica normal
 //checked -> se não tiver explicito na classe "trows" ou "try catch" acusará erro
 
-public class MinhaExcecao extends RuntimeException{
+public class MinhaExcecao extends Exception{
     public MinhaExcecao(String msgm){
         super(msgm);
     }
