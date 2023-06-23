@@ -6,6 +6,8 @@ public class Conta {
     private String numero;
     private Double saldo = 0.;
 
+     protected int num = 123;
+
     public Conta(Cliente titular) {
         this.titular = titular;
     }
@@ -47,6 +49,8 @@ public class Conta {
     public Double getSaldo() {
         return this.saldo;
     }
+
+
 
     boolean saca(double valor) {
         if (this.saldo >= valor) {
