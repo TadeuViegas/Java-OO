@@ -21,7 +21,7 @@ public class TestaMetodo {
         /* Resultado do teste:
         * Quando um objeto é instaciado na memoria o java atribui para os campos/atributos,
         * valor 0 se o atributo for do tipo primitivo (int, char, boolean, double)
-        * Null caso o atributo seja do tipo Referencia (String, Double, Interger, Array)
+        * Null caso o atributo seja do tipo clase (String, Double, Interger, Array)
          */
     }
 }

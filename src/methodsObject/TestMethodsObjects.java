@@ -18,8 +18,8 @@ public class TestMethodsObjects {
         System.out.println(pessoa1.getClass());
 
         Object clone = pessoa1.clone();
-        System.out.println("original: " + clone);
         System.out.println("clone: " + pessoa1);
+        System.out.println("original: " + clone);
 
     }
 }
