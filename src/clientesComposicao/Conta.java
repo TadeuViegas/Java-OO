@@ -40,10 +40,15 @@ public class Conta {
         } else System.out.println("Error: saldo insuficiente!");
     }
 
-    void statusConta(){
-        System.out.println(this.cliente);
-        System.out.println(this.saldo);
-        System.out.println(this.agencia);
-        System.out.println(this.numero);
+//    void statusConta(){
+//        System.out.println(this.cliente.nome);
+//        System.out.println(this.saldo);
+//        System.out.println(this.agencia);
+//        System.out.println(this.numero);
+//    }
+
+    public String toString(){
+        return "Cliente:" + cliente.nome + "\n" + "Saldo:" + saldo
+                +  "\n" + "Ag:" + agencia + "\n" + "Acc:" + numero;
     }
 }

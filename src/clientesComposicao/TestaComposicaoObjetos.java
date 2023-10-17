@@ -18,7 +18,9 @@ public class TestaComposicaoObjetos {
         System.out.println(conta1.cliente.nome);
         System.out.println(conta1.cliente.profissao);
 
-        System.out.println(conta1.toString());
+        conta1.saldo = 1.2;
+        System.out.println("STATUS DA CONTA--------------------");
+        System.out.println(conta1);
 
     }
 }
