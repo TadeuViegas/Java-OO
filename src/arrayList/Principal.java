@@ -11,17 +11,15 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme filme1 = new Filme();
-        filme1.setNome("300");
-        filme1.setAnoDeLancamento(2005);
+        Filme filme1 = new Filme("300",2005);
 
-        Filme filme2 = new Filme();
-        filme2.setNome("matrix");
-        filme2.setAnoDeLancamento(1999);
+//        Filme filme2 = new Filme();
+//        filme2.setNome("matrix");
+//        filme2.setAnoDeLancamento(1999);
 
         ArrayList<Filme> filmes = new ArrayList<>();
         filmes.add(filme1);
-        filmes.add(filme2);
+//        filmes.add(filme2);
 
         System.out.println("Tamanho da lista: " + filmes.size());
         System.out.println("Primeiro filme: " + filmes.get(1));

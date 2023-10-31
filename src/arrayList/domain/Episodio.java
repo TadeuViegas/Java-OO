@@ -42,11 +42,21 @@ public class Episodio implements Classificavel {
     }
 
     @Override
-    public int getClassificacao() {
+    public double getClassificacao() {
         if (totalVisualizacoes > 100) {
             return 4;
         } else {
             return 2;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Episodio{" +
+            "numero=" + numero +
+            ", nome='" + nome + '\'' +
+            ", serie=" + serie +
+            ", totalVisualizacoes=" + totalVisualizacoes +
+            '}';
     }
 }
