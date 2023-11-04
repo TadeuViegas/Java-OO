@@ -13,8 +13,14 @@ public class mainHashMap {
 
 //        System.out.println("Buscando valor da chave 1: " + hashMap.get(1));
 
-        for(String key : hashMap.keySet()){
-            System.out.println(hashMap.get(key) + ": " + key );
-        }
+//        for(String key : hashMap.keySet()){
+//            System.out.println(hashMap.get(key) + ": " + key );
+//        }
+
+//        for (Integer value : hashMap.values()) {
+//        }
+
+        System.out.println(hashMap);
+
     }
 }
