@@ -25,7 +25,8 @@
 - Uso dos métodos da super Classe Object (override)
 
 ## 💭Trabalhando com libs
-- Libs que já vêm incorporadas no java por default
-- java.lang (Class String, StringBuilder, Object, System)
-- java.util (Class ArrayList, Hashmap, LinkedList, Hashset - Collections)
+- Libs que já vêm incorporadas no java por default: <br>
+java.lang (Class String, StringBuilder, Object, System)
+- Collections API do java (estruturas de dados): <br>
+java.util (Class ArrayList, Hashmap, Hashset)
 - 
