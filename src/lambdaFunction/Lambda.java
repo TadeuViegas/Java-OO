@@ -5,7 +5,6 @@ interface Taxi{
 }
 
 public class Lambda {
-
     public static int imprimirCidade(String city){
         System.out.println("cidade: " + city);
         return 7;
